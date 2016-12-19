@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - role: ansible-role-dyndns
+      dyndns_items:
+        - "icanhazip.com"
