@@ -1,0 +1,3 @@
+{% for item in dyndns_items %}
+* * * * * root curl "{{ item }}" > /dev/null 2>&1
+{% endfor %}

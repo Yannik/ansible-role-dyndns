@@ -1,0 +1,2 @@
+ - name: Create cronjobs
+   template: src=cronjob dest=/etc/cron.d/dyndns

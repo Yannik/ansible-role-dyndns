@@ -1,0 +1,2 @@
+ - include: dyndns.yml
+   tags: dyndns
