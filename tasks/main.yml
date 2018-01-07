@@ -1,2 +1,2 @@
- - include: dyndns.yml
+ - import_tasks: dyndns.yml
    tags: dyndns
